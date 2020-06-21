@@ -1,0 +1,55 @@
+.content {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: relative;
+  top: 0;
+  line-height: 1.53333;
+  color: #394b59;
+  font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  background-position: center bottom;
+  position: relative;
+  margin-bottom: 113px;
+  height: 70vh;
+  overflow: hidden;
+  max-height: 700px;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/body_img.jpg");
+  background-size: cover;
+  z-index: -1;
+  margin-bottom: 10px;
+}
+
+.introduction {
+  margin-top: 5rem;
+  color: #f9fafc;
+}
+
+.iword {
+  color: #1792a5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.true {
+  text-align: left;
+  color: #bacedd;
+  font-family: "DIN","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+img {
+  padding: .25rem;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.nowrap {
+  color:#09335ff5;
+}
+
+.introduction__paragraph {
+  color:#c87e30;
+}

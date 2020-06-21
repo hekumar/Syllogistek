@@ -1,0 +1,47 @@
+<div style="background: rgba(196, 207, 218, 0.2);">
+    <div class="container-fluid">
+      <div class="pt-4 pl-4  font-weight-normal">
+        <h1>Testimonial</h1>
+        What students think about Syllogistek:
+      </div>
+  
+      <div class="flex-container">
+        <div
+          *ngFor="let s of students"
+          class="card"
+          style="box-shadow: -3px -2px 5px 1px #0f0f0f1c; width: 18rem; border-radius: 10px;"
+        >
+        <div class="card-top">
+            <img
+            class="img-responsive"
+            style="border-radius: 50%;"
+            [src]="s.photo"
+            class="card-img-top"
+            alt="student image"
+          />
+            <h6 class="card-title">
+                {{ s.name }}
+                <h6>{{ s.position }}</h6>
+              </h6>
+        </div>
+       
+        <p class="mb-0"> {{s.course}}</p>
+        <hr class="m-1">
+          <div class="card-body pt-1">
+           
+            <!-- <p class="teacher-comment">
+            Job Seeker, Course Taken: <strong>PYTHON</strong>
+          </p> -->
+          
+            <p class="card-text">
+              {{ s.details }}
+            </p>
+            <!-- <button type="button" (click)="open()" class="btn">
+              Read more >>>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

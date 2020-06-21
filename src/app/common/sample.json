@@ -1,0 +1,39 @@
+[{
+    "name" : "",
+    "position" : "",
+    "description" : "",
+    "photo" : "",
+    "details" : [{ "head" : "", "text" : ""},{"head" : "", "text" : ""}]
+},
+{
+    "name" : "",
+    "position" : "",
+    "course" : "",
+    "photo" : "",
+    "details" : ""
+},
+{
+    "course" : "",
+    "about" : ["", ""],
+    "description" : [{ "head" : "", "text" : ""},{"head" : "", "text" : ""}],
+    "prerequisite" : "",
+    "photo" : "",
+    "details" : ""
+},
+{
+    "name": "",
+    "photo" : "",
+    "place" : "",
+    "detail": "",
+},
+{
+    "course" : "",
+    "about" : [""],
+    "description" : [ {
+        "head":"","text" : "", "list":[]
+    }],
+    "photo" : "",
+    "details" : ""
+}
+]
+

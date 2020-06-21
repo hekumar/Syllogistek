@@ -1,0 +1,48 @@
+<div class="content">
+  <div class="container introduction text-center">
+    <div class="row">
+      <h1 class="introduction__title">
+        <span class="nowrap">Our Goal is to help </span>
+        <span class="nowrap"> YOU</span>
+      </h1>
+    </div>
+    <div class="true">
+      <blockquote class="introduction__paragraph">
+        <p><span class="iword">T</span>ransform</p>
+        <p><span class="iword">R</span>eskill</p>
+        <p><span class="iword">U</span>pgrade</p>
+        <p><span class="iword">E</span>xcel</p>
+      </blockquote>
+    </div>
+
+    <div class="row nowrap">
+      <p>as a partner.</p>
+    </div>
+  </div>
+</div>
+<div class="body_text">
+  <p>
+    At Syllogistek, we are a group of Industry veterans who are dedicated to
+    create talents and solutions for tomorrow. With a collective 100+ years of
+    industry experience in various domains and pervasive technologies, you are
+    in safe hands to be relevant in this changing world!
+  </p>
+</div>
+<div class="bd-example">
+    <ngb-carousel id="slides" *ngIf="images">
+      
+        <ng-template *ngFor="let img of images" ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="img.photo" class="w-100" alt="slide images">
+          </div>
+          <div class="carousel-caption">
+            <h3>{{img.place}}</h3>
+            <p>{{img.detail}}</p>
+          </div>
+        </ng-template>
+        
+      </ngb-carousel>
+
+</div>
+<app-people></app-people>
+<app-testimonial></app-testimonial>

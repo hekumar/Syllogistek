@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+$color-text: white;
+$color-green: #00ff00;
+$color-blue: #0000ff;
+
+app-header {
+  color: $color-text;
+}
+
+
+.body_text {
+  // background: rgba(136, 136, 139, 0.171);
+  line-height: 1.53333;
+  color: #0f1113;
+  font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 2rem;
+  padding: 10px;
+}
+
+.title {
+  background: linear-gradient(90deg, #143db2e0, #f6f6ee29);
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.bd-example {
+  // position: relative;
+  width: auto;
+  max-width: 640px;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 3rem;
+  z-index: -1;
+}
+
+.bd-map {
+  position: relative;
+  width: 100%;
+  max-height: 480px;
+  min-height: 360px;
+ 
+}
+
+.card {
+  margin: 1rem;
+  box-shadow: 0 0 4px -2px;
+}

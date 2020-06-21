@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "U Monika",
+        "position" : "B Tech 3rd Year Student",
+        "course" : "PYTHON Internship",
+        "photo" : "../../assets/testimonial/Monika.jpg",
+        "details" : "Trainer was good at teaching, clearing doubts and was very helpful."
+    },
+    {
+        "name" : "K Siddhartha Reddy",
+        "position" : "B Tech 2nd Year Student",
+        "course" : "PYTHON Internship",
+        "photo" : "../../assets/testimonial/Siddharth.jpg",
+        "details" : "The sessions were very interactive and the best thing about the trainer was on spot doubt clarifications. Hope it would have lasted longer."
+    },
+    {
+        "name" : "Vaishnavi T.",
+        "position" : "B Tech 3rd Year Student",
+        "course" : "PYTHON Internship",
+        "photo" : "../../assets/testimonial/Vaishnavi.jpg",
+        "details" : "The trainer explained all the doubts very clearly. Explained the concepts until we understood. Good facilities. I suggest to increase class timings and decrease the number of days."
+    },
+    {
+        "name" : "Himnish Kapoor",
+        "position" : "B Tech 1st Year Student",
+        "course" : "Programming Concept & Core JAVA",
+        "photo" : "../../assets/testimonial/Himnish.jpg",
+        "details" : "Trainer was very organized and made presentations beforehand. The notes given was very helpful as they let me revise the concepts taught during the class. Classrooms were comfortable which provided a relaxing"
+    }
+]

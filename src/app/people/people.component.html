@@ -1,0 +1,39 @@
+<div style="background: rgba(196, 207, 218, 0.2);">
+  <div class="container-fluid">
+    <div class="pt-4 pl-4  font-weight-normal">
+      <h1>ABOUT US</h1>
+      The people behind Syllogistek:
+    </div>
+
+    <div class="flex-container">
+      <div
+        *ngFor="let p of people"
+        class="card"
+        style="box-shadow: -3px -2px 5px 1px #0f0f0f1c; width: 18rem; border-radius: 10px;"
+      >
+        <img
+          class="img-responsive"
+          style="border-radius: 50%;"
+          [src]="p.photo"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            {{ p.name }}
+            <h6>{{ p.position }}</h6>
+          </h5>
+          <!-- <p class="teacher-comment">
+          Job Seeker, Course Taken: <strong>PYTHON</strong>
+        </p> -->
+          <p class="card-text">
+            {{ p.description }}
+          </p>
+          <button type="button" (click)="open(p)" class="btn">
+            Read more >>>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

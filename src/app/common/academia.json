@@ -1,0 +1,82 @@
+[
+    {
+        "course" : "Azure",
+        "about" : ["The Azure™ Services Platform (Azure) is an internet-scale cloud services platform hosted in Microsoft data centers, which provides an operating system and a set of developer services that can be used individually or together. Azure’s flexible and interoperable platform can be used to build new applications to run from the cloud or enhance existing applications with cloud-based capabilities. Its open architecture gives developers the choice to build web applications, applications running on connected devices, PCs, servers, or hybrid solutions offering the best of online and on-premises.",
+             ""],
+        "description" : [{ "head" : "Who should take this course", "text" : "", 
+                          "list" : ["Product Managers",
+                                    "System Administrators and IT Managers",
+                                    "IT Administrators and Operators",
+                                    "IT Engineers",
+                                    "Cloud Engineers",
+                                    "Software Developers and Software Architects"
+                                    ]
+                                },
+                         {"head" : "Prerequisite", "text" : "",
+                            "list" : ["Cloud computing: You should understand how core services like networking, databases, servers and software function in the cloud.",
+                                     "Microsoft knowledge:  Knowledge in Microsoft system admin.",
+                                     "Programming: Knowledge of open-source frameworks, C#"
+                                    ]
+                              },
+                            {
+                                "head":"Course Duration","text" : "20 Hour", "list":[]
+                            },
+                            {
+                                "head":"Course Content","text" : "Azure", "list":[]
+                            }
+                            
+                            ],
+        "photo" : "",
+        "details" : ""
+    },
+    {
+        "course" : "AWS",
+        "about" : ["Amazon Web Services (AWS) is a secure cloud services platform, offering various functionalities like database storage, content delivery and compute power to help businesses scale and grow. It is Cost effective, flexible, reliable, secure, scalable and easy to use. Instagram, Vine, Netflix, AirBnB, Apple are just few of the names that use AWS in large parts of their business. Used by an assortment of companies and government agencies, AWS has gone from strength to strength."],
+        "description" : [ {
+            "head":"Who should take this Course","text" : "Our expert trainers assist you to ensure you are well prepared to clear the AWS Cloud Practitioner and Associate AWS Solutions Architect certifications. This course is ideal for professionals who want to pursue a career in Cloud computing or develop Cloud applications with AWS. The following roles will benefit from this learning path:",
+             "list":["Product Managers",
+                "System Administrators and IT Managers",
+                "IT Administrators and Operators",
+                "IT Engineers",
+                "Cloud Engineers",
+                "Software Developers and Software Architects"
+                ]
+        },
+        {
+            "head":"Prerequisite","text" : "", 
+            "list":["No prior AWS experience is necessary",
+                "System administration/development knowledge would be helpful",
+                "Absolute beginners with knowledge of software"]
+        },
+        {
+            "head":"Course Duration","text" : "40 Hour", "list":[]
+        },
+        {
+            "head":"Course Content","text" : "AWS", "list":[]
+        }
+    ],
+        "photo" : "",
+        "details" : ""
+    },
+    {
+        "course" : "Big Data",
+        "about" : ["Complex or Voluminous data, both multi-structured as well as unstructured, which are quite impractical to be managed using the traditional database systems and software tools are referred to as Big Data. Big data analytics is the process of mining  large and mixed data sets, for example : Social media data, Banking data, online shopping Data etc.",
+        "By using specialized analytics systems and software, big data analytics can point the way to various business benefits"],
+        "description" : [ {
+            "head":"","text" : "", "list":["including new revenue opportunities by looking predictive analysis.",
+                "more effective marketing using latest trends in the market.",
+                "better customer service  etc."]
+        },
+        {
+            "head":"","text" : "", "list":[]
+        },
+        {
+            "head":"","text" : "", "list":[]
+        }
+    ],
+        "photo" : "",
+        "details" : ""
+    }
+
+
+]
